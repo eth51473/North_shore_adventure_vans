@@ -44,7 +44,7 @@ a:hover{
 #main-img{
   height: 50vh;
   width: 100vw;
-  background-image: url(img/img1.JPG);
+  background-image: url(img/bodybackground.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px, 50px;
@@ -140,7 +140,7 @@ h2{
   height: 37vh;
   border-radius: 5px;
   background-repeat: no-repeat;
-  background-image: url(/img/CaptureSmaller.png);
+  background-image: url(/img/biopic.png);
   background-size:cover;
 }
 #about-text{
@@ -287,19 +287,19 @@ h2{
   height: 37vh;
   border-radius: 5px;
   background-repeat: no-repeat;
-  background-image: url(/img/CaptureSmaller.png);
+  background-image: url(/img/biopic.png);
   background-size:cover;
 }
 #van-pic2{
   border-radius: 5px;
-  background-image: url(/img/img3adjusted.png);
+  background-image: url(/img/sidevan.png);
   background-size: cover;
   
   background-repeat: none;
 }
 #van-pic{
   border-radius: 5px;
-  background-image: url(/img/backvan.JPG);
+  background-image: url(/img/backvan.png);
   background-size: cover;
   position: relative;
   background-repeat: none;
