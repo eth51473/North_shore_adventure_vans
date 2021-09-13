@@ -33,19 +33,19 @@ h1{
   font-size: 1.5rem;
 }
 
-/* a{
+a{
   color: black;
   text-decoration: underline;
   font-size: 15px;
 }
 a:hover{
   text-decoration: underline;
-} */
+}
 #main-img{
   height: 50vh;
   width: 100vw;
-  /* background-image: url("https://cdn.pixabay.com/photo/2016/11/29/06/38/hawaii-1867849_1280.jpg"); */
-  background-image: url("/img/bodybackground.png");
+  background-image: url("https://lh3.googleusercontent.com/pj02uLWUi8w5vE8IStYcVkz9PZGXZ5iJ_MrhoZ2XQ19mWvUyW1hXI23qMXEbolNiY50vLXlBw6gpKyxFi5yKI-bSexWmwhdJNA6SfSp0rlg6rcy7L_HGQNAU4Y7MMfJo2q_MNRIFzg=w2400");
+  
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px, 50px;
@@ -67,7 +67,6 @@ a:hover{
   align-items: center;
   justify-content: center;
   height: 60px;
-  align-items: center;
 }
 .instalogo{
   background-color: black;
@@ -141,7 +140,7 @@ h2{
   height: 37vh;
   border-radius: 5px;
   background-repeat: no-repeat;
-  background-image: url("/img/biopic.png");
+  background-image: url("https://lh3.googleusercontent.com/jeyMLlrtWN-Jw6kxuaXzx43nJCtoZEfCYcovNgqVyZ383QvrTMd941qcxNjK5sSphNHRdivnPp1ISR9Fbf08QSpxuxp7aI5Hev4N1_UC3Sy8RzFetAy9ZiD4p9aQEK_0kyvd02zRRA=w2400");
   background-size:cover;
 }
 #about-text{
@@ -171,37 +170,22 @@ h2{
 /* desktop only*/
 @media only screen and (min-width: 900px){
   #topbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
     height: 10vh;
     flex-direction: row;
-    
-    
-  }
+    }
   nav{
-    flex-direction: column;
-    position: relative;
     left: 25vw;
     top:5px
   }
 #button-holder{
   margin-top: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 80px;
-  align-items: center;
 }
-h1{
-  color: rgba(0, 0, 0, 0.678);
-  text-emphasis: none;
-}
+
 
 a{
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
   font-size: 20px;
 }
 
@@ -218,7 +202,6 @@ a{
   bottom: 30px;
 }
 h2{
-  color: rgb(255, 255, 255);
   font-size: 40px;
   /* text-shadow: white 1px 1px; */
 }
@@ -235,7 +218,7 @@ h2{
   
 }
 
-.button{
+/* .button{
   padding: 15px;
   font-size: 24px;
   background-color:white;
@@ -252,7 +235,7 @@ h2{
 }
 .button a:hover{
   color: white;
-}
+} */
 
 .info{
   display: flex;
@@ -288,19 +271,19 @@ h2{
   height: 37vh;
   border-radius: 5px;
   background-repeat: no-repeat;
-  background-image: url("/img/biopic.png");
+  
   background-size:cover;
 }
 #van-pic2{
   border-radius: 5px;
-  background-image: url("/img/sidevan.png");
+  background-image: url("https://lh3.googleusercontent.com/usc5J7ocTrgc2Di7wUT7wWiTFhIObdyc7yrkTlZRApN4Po4t3FLbwDi78nmzfHowAZb9sXEohD1rJasQk4JX_gee0TEha6MWO4yEuLcMTPbHfKIYitcOENqooJEI4mgr0TIBEqNDxQ=w2400");
   background-size: cover;
   
   background-repeat: none;
 }
 #van-pic{
   border-radius: 5px;
-  background-image: url("/img/backvan.png");
+  background-image: url("https://lh3.googleusercontent.com/GbAjfIGtUgvyeOeEC88ReoxuYndOdijP2aklpvvYN1WDpnr31yceCBclDwOUvONFfFTvWFk3e0_nvS6h3kz6ggpUAJcIKV6koQzaI0jfC-RXBFIUV1gDfBgtb269hjptrr2oyg6sjw=w2400");
   background-size: cover;
   position: relative;
   background-repeat: none;
